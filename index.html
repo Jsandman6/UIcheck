@@ -1,29 +1,48 @@
-<div class="bg-zinc-900 text-white p-8">
+<div class="bg-zinc-900 text-white p-8 dark:bg-zinc-100 dark:text-zinc-900">
     <h1 class="text-3xl font-bold mb-4">Easy Advisor</h1>
-    <p class="mb-4">Your Robo Advisor for smart investments</p>
-    <button class="bg-blue-500 text-white p-3 rounded-lg mr-4">Stock Recommendations</button>
-    <button class="bg-blue-500 text-white p-3 rounded-lg">Risk Assessment</button>
+    <p class="mb-4">Your Robo Advisor for smart investing.</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <a href="#" class="bg-white p-4 rounded-lg shadow-md dark:bg-zinc-900 dark:text-white block">
+            <h2 class="text-lg font-bold mb-2">Stock Recommendations</h2>
+            <p>Top stock picks tailored for you.</p>
+            <button class="bg-blue-500 text-white p-3 rounded-lg mt-2">View Recommendations</button>
+        </a>
+        <a href="#" class="bg-white p-4 rounded-lg shadow-md dark:bg-zinc-900 dark:text-white block">
+            <h2 class="text-lg font-bold mb-2">Risk Assessment</h2>
+            <p>Understand your risk tolerance.</p>
+            <button class="bg-blue-500 text-white p-3 rounded-lg mt-2">Assess Risk</button>
+        </a>
+    </div>
 </div>
-
 <div class="flex justify-center mt-8">
     <img src="https://placehold.co/600x400" alt="Stock Markets" class="w-full md:w-2/3 lg:w-1/2" />
 </div>
 <div class="bg-zinc-900 text-white p-8 dark:bg-zinc-100 dark:text-zinc-900">
-  <h1 class="text-3xl font-bold mb-4">Stock Recommendations</h1>
-  <p class="mb-4">Check out our latest stock recommendations below.</p>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-    <div class="bg-white p-4 rounded-lg shadow-md dark:bg-zinc-900 dark:text-white">
-      <h2 class="text-lg font-bold mb-2">Tech Stocks</h2>
-      <p>Top tech stocks to watch in the current market.</p>
-      <button class="bg-blue-500 text-white p-3 rounded-lg mt-2">View Recommendations</button>
+    <h1 class="text-3xl font-bold mb-4">Stock Recommendations</h1>
+    <p class="mb-4">Check out our latest stock recommendations below.</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-white p-4 rounded-lg shadow-md dark:bg-zinc-900 dark:text-white">
+            <h2 class="text-lg font-bold mb-2">Tech Stocks</h2>
+            <p>Top tech stocks to watch in the current market.</p>
+            <button class="bg-blue-500 text-white p-3 rounded-lg mt-2">View Recommendations</button>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-md dark:bg-zinc-900 dark:text-white">
+            <h2 class="text-lg font-bold mb-2">Healthcare Stocks</h2>
+            <p>Explore healthcare sector stocks for potential growth.</p>
+            <button class="bg-blue-500 text-white p-3 rounded-lg mt-2">View Recommendations</button>
+        </div>
     </div>
-    <div class="bg-white p-4 rounded-lg shadow-md dark:bg-zinc-900 dark:text-white">
-      <h2 class="text-lg font-bold mb-2">Healthcare Stocks</h2>
-      <p>Explore healthcare sector stocks for potential growth.</p>
-      <button class="bg-blue-500 text-white p-3 rounded-lg mt-2">View Recommendations</button>
-    </div>
-  </div>
 </div>
-<div class="flex justify-center mt-8">
-  <img src="https://placehold.co/600x400" alt="Stock Markets" class="w-full md:w-2/3 lg:w-1/2" />
+<div class="bg-zinc-900 text-white p-8 dark:bg-zinc-100 dark:text-zinc-900">
+    <h1 class="text-3xl font-bold mb-4">Risk Assessment</h1>
+    <p class="mb-4">Assess your risk tolerance for better investment decisions.</p>
+    <form>
+        <label for="risk-level" class="block mb-2">Select your risk level:</label>
+        <select id="risk-level" class="bg-white text-zinc-900 p-2 rounded-md w-full dark:bg-zinc-900 dark:text-white">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+        <button type="submit" class="bg-blue-500 text-white p-3 rounded-lg mt-4">Assess Risk</button>
+    </form>
 </div>
